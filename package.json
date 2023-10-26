@@ -1,0 +1,36 @@
+{
+  "name": "joker",
+  "version": "0.1.0",
+  "description": "Application that tells jokes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanya992/joker.git"
+  },
+  "keywords": [
+    "css",
+    "e-commerce",
+    "portfolio",
+    "website"
+  ],
+  "author": "Vladimira Dmitrovic <vanjacrv92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanya992/joker/issues"
+  },
+  "homepage": "https://github.com/vanya992/joker#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
